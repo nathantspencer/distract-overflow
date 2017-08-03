@@ -7,8 +7,8 @@
       "https://*.stackexchange.com/*",
       "https://stackoverflow.com/*"
     ],
-    "js": [
-      "distract-overflow.js"
+    "css": [
+      "distract-overflow.css"
     ]
   }]
 }

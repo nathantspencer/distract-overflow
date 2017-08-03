@@ -23,3 +23,24 @@ if(newsletterAd) {
 if(chatFeature) {
 	chatFeature.style.display = "none";
 }
+
+
+#hot-network-questions {
+	display: none;
+}
+
+#hireme {
+	display: none;
+}
+
+.community-bulletin {
+	display: none;
+}
+
+#newsletter-ad {
+	display: none;
+}
+
+#chat-feature {
+	display: none;
+}
