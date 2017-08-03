@@ -8,7 +8,7 @@
       "https://stackoverflow.com/*"
     ],
     "css": [
-      "distract-overflow.css"
+      "app/distract-overflow.css"
     ]
   }]
 }

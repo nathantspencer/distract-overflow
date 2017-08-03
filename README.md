@@ -4,7 +4,7 @@
 
 `distract-overflow` is a tiny Chrome extension for hiding distracting elements from Stack Exchange network pages while retaining elements related to the topic at hand. Combined with an ad blocker, question pages look like this:
 
-![No distractions here!](example.jpg)
+![No distractions here!](app/example.jpg)
 
 `distract-overflow` hides:
  - the **Hot Network Questions** element *(links to unrelated questions)*
