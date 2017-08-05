@@ -6,14 +6,14 @@
 
 ![No distractions here!](images/example.jpg)
 
-`distract-overflow` hides:
- - the **Hot Network Questions** element *(links to unrelated questions)*
- - the **Hire Me** element *(shows job listings in sidebar)*
- - the **Community Bulletin** element *(links to blog, meta posts)*
- - the **Newsletter** element *(stack exchange newsletter promotion)*
- - the **Chat** element *(shows active chat users, links to chat)*
+`distract-overflow` hides the following sidebar elements:
+ - **Hot Network Questions**
+ - **Hire Me**
+ - **Community Bulletin**
+ - **Newsletter**
+ - **Chat**
  
-Note that the entire sidebar is not removed. Because they often prove useful in getting helpful answers, the Related Questions, Related Tags, and Favorite Tags elements are retained.
+Note that the entire sidebar is not removed. Because they often prove useful in getting helpful answers, the **Related Questions**, **Related Tags**, and **Favorite Tags** elements are retained.
 
 # Installation
 In the future, `distract-overflow` will be available via the [Chrome Web Store](https://chrome.google.com/webstore/category/extensions). Until then, this procedure can be used to install it for free using developer mode:
