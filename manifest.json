@@ -3,6 +3,12 @@
   "name": "distract-overflow",
   "version": "0.1",
   "homepage_url": "https://github.com/nathantspencer/distract-overflow",
+  "browser_action": {
+    "default_icon": "images/icon48.png"
+  },
+  "icons": { "16": "images/icon16.png",
+           "48": "images/icon48.png",
+          "128": "images/icon128.png" },
   "content_scripts": [{
     "matches": [
       "https://*.stackexchange.com/*",
@@ -13,4 +19,3 @@
     ]
   }]
 }
-
