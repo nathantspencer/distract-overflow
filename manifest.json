@@ -6,8 +6,7 @@
   "background": { "scripts": [ "app/background.js"] },
   "browser_action": {
     "default_icon": "images/icon48.png" },
-  "permissions": [
-      "tabs", "http://*/*", "https://*/*" ],
+  "permissions": [ "tabs", "http://*/*", "https://*/*" ],
   "icons": { "16": "images/icon16.png",
            "48": "images/icon48.png",
           "128": "images/icon128.png" },
@@ -15,6 +14,6 @@
     "matches": [
       "https://*.stackexchange.com/*",
       "https://stackoverflow.com/*" ],
-    "css": [
-      "app/hide.css" ] }]
+    "css": [ "app/hide.css" ] }],
+  "options_page": "app/options.html"
 }
