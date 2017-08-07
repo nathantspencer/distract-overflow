@@ -11,3 +11,10 @@ chrome.browserAction.onClicked.addListener(function(tab) {
     extensionIsActive = true;
   }
 });
+
+chrome.tabs.onUpdated.addListener( function (tabId, changeInfo, tab) {
+  if (changeInfo.status == 'complete' && !extensionIsActive) {
+    chrome.tabs.executeScript({ file: 'app/transition-off.js' });
+
+  }
+});
