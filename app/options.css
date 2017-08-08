@@ -1,0 +1,14 @@
+body {
+	margin: 0pt;
+}
+
+#banner {
+	height: 10pt;
+	background-color: #FF9900;
+	margin-bottom: 40pt;
+}
+
+#content {
+	margin-left: 30%;
+	margin-right: 30%;
+}
