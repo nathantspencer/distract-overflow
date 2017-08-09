@@ -1,3 +1,5 @@
+/* global chrome */
+
 var extensionIsActive = true;
 
 chrome.browserAction.onClicked.addListener(function(tab) {
@@ -15,7 +17,7 @@ chrome.browserAction.onClicked.addListener(function(tab) {
 chrome.tabs.onUpdated.addListener( function (tabId, changeInfo, tab) {
   if (changeInfo.status === "complete" && !extensionIsActive) { 
     chrome.tabs.executeScript(null, { file: "app/transition-off.js" });
-  } else if (changeInfo.status === 'complete' && extensionIsActive) {
+  } else if (changeInfo.status === "complete" && extensionIsActive) {
     chrome.tabs.executeScript(null, { file: "app/transition-on.js" });
   }
 });
